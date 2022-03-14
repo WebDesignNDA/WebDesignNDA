@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Link to Bootstrap...don't delete this -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
+        <!-- Link to Bootstrap ends here -->
+        <title>Basic Web Page</title>
+        <!-- Link to external CSS stylesheet  -->
+        <link href="SunisaLee.css" rel="stylesheet">
+        <!-- Links for Google Fonts can go under this line -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Lobster+Two:wght@400;700&family=Mali&family=Sriracha&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<!-- Navbar start -->
+<ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#bio">Biography</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#acc">Accolades</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#imp">Impact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#form">Comments</a>
+  </li>
+</ul>
+<!-- Navbar end  -->
+<!-- Title -->
+<div id="first">
+<h1 id="title" class="center"><strong>Sunisa Lee</strong></h1>
+<h2 id="sub" class="center">Current Olympic Champion in Women's Artistic Gymnastics</h2>
+</div>
+<!-- Bio -->
+<div class="sec">
+<h2 id="bio" class="section">Biography</h2>
+</div>
+<div id="container">
+    <div id="text">
+        <h3>Sunisa (Suni) Lee</h3>
+        <ul>
+            <li>is 18 years old</li>
+            <li>grew up in St. Paul, Minnesota</li>
+            <li>has five siblings</li>
+            <li>is a Freshman at Auburn University</li>
+            <li>trains at the Midwest Gymnastics Center</li>
+            <li>and started gymnastics when she was five years old</li>
+        </ul>
+    </div>
+    <div id="image">
+        <img id="main" src="https://s.yimg.com/ny/api/res/1.2/fXDfW_n7XyvzXHZfiSk41Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMA--/https://s.yimg.com/uu/api/res/1.2/h6DQJ8xs.DxViTN8idCHxg--~B/aD0xNjcyO3c9MjIyOTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/insider_articles_922/c0decc4c234fa6bbfe44617b154b2af2">
+    </div>
+</div>
+<!-- Accolades -->
+<div class="sec">
+<h2 id="acc" class="section">Accolades</h2>
+</div>
+<div id="indent1">
+<h3>At the 2020 Tokyo Olympic Games, Suni</h3>
+<ol>
+    <li>won Gold in the All-Around</li>
+    <li>won Silver in the Team Event</li>
+    <li>and won Bronze in Uneven Bars</li>
+</ol>
+<p>The Gold Medal in the Individual All-Around Event at the Olympics is the most coveted award in all of gymnastics.</p>
+<p>Lee is also the 2021 U.S. Uneven Bars Champion, the 2021 Sports Illustrated Female Athlete of the Year, competed in the 30th season of Dancing With the Stars, and was invited to the 2021 Met Gala.</p>
+</div>
+<!-- photo carousel start -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.ytimg.com/vi/ZZgGt09_MCE/maxresdefault.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Lee accepts the 2021 Sports Illustrated Female Athlete of the Year Award</h5>
+        <p>popsugar.com</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.justjaredjr.com/wp-content/uploads/headlines/2021/11/suni-semi.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Lee dancing with her partner, Sasha Farber, on DWTS</h5>
+        <p>justjaredjr.com</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://wwd.com/wp-content/uploads/2021/09/LEX_9172.jpg?crop=0px%2C0px%2C2419px%2C1353px&resize=910%2C511" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Lee at the 2021 Met Gala</h5>
+        <p>wwd.com</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- photo carousel end -->
+<div id="indent2">
+<h3>International Competition Results</h3>
+<table>
+    <tr>
+        <th>Competition</th>
+        <th>Location</th>
+        <th>Result</th>
+    </tr>
+    <tr>
+        <td>2021 Olympic Games</td>
+        <td>Tokyo, Japan</td>
+        <td>1st-AA; 2nd-Team; 3rd-UB; 5th-BB</td>
+    </tr>
+    <tr>
+        <td>2019 World Championships</td>
+        <td>Stuttgart, Germany</td>
+        <td>1st-Team; 2nd-FX; 3rd-UB; 8th-AA</td>
+    </tr>
+    <tr>
+        <td>2019 Jesolo Trophy</td>
+        <td>Jesolo, Italy</td>
+        <td>1st-Team, AA, UB, FX; 3rd-BB</td>
+    </tr>
+    <tr>
+        <td>2018 Pacific Rim Championships</td>
+        <td>Medellin, Colombia</td>
+        <td>1st-Team; 2nd-VT, BB, FX; 4th-AA (Jr. Div.)</td>
+    </tr>
+    <tr>
+        <td>2017 Gymnix International Junior Cup</td>
+        <td>Montreal, Canada</td>
+        <td>1st-Team; 2nd-UB</td>
+    </tr>
+</table>
+</div>
+<!-- Impact -->
+<div class="sec">
+<h2 id="imp" class="section">Impact</h2>
+</div>
+<!-- (Collegiate) -->
+<h2 id="coll" class="subsec"><span class="subtit">Collegiate</span></h2>
+<div class="super">
+<p>Just six meets into her Freshman season at Auburn, Suni scored a perfect 10 on the uneven bars in a meet against LSU. It's the sixth-ever 10.0 in Auburn gymnastics history and the first since Rachael Tarantino notched a perfect mark on the balance beam in 2004.</p>
+<a href="https://youtu.be/awH3VE2oZV0">Collegiate Perfect 10 on Bars</a>
+<p id="in">At a meet against Kentucky, Suni made history by debuting the Nabieva for the first time in NCAA history. The skill is G-rated, which translates to the most difficult of gymnastic skills.</p>
+<p>At the same meet, Suni scored her second perfect 10, this time on the balance beam.</p>
+<a href="https://youtu.be/a3jj4bn_VBM">Nabieva Debut and Collegiate Perfect 10 on Beam</a>
+</div>
+<!-- (Olympic) -->
+<h2 id="oly" class="subsec"><span class="subtit">Olympic</span></h2>
+<div class="center">
+<img src="https://idsb.tmgrup.com.tr/ly/uploads/images/2021/07/29/132176.jpg" class="new">
+<img src="https://ktvz.b-cdn.net/2021/08/oly20_gawbb_leehighlight_hlf_210804.jpg" class="new">
+<img src="https://media1.popsugar-assets.com/files/thumbor/zPQjE32C4Zi9MqCYaJvrmUiZdzI/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2021/07/29/569/n/1922729/b53718a16102a188b47d18.45964785_/i/sunisa-lee-wins-womens-gymnastics-all-around-2021-olympics.jpg" class="new">
+</div>
+<div class="super">
+<p>Suni is the first Hmong American Olympian.</p>
+<p>She is the first Asian American to win the all-around gold in gymnastics, and also the fifth consecutive American woman to hold the title.</p>
+<a href="https://youtu.be/PABGUcS25rk">Suni's Gold Medal Reaction</a>
+</div>
+<!-- (Identity/Community) -->
+<div class="subsec">
+<h2 id="comm"><span class="subtit">Identity/Community</span></h2>
+</div>
+<h3 class="only" class="super">Suni's impact on the Hmong American community</h3>
+<p class="only" class="super">Since the start of the Olympics, Google has reported a spike in search trends for “Hmong.”
+
+Hmong people- an ethic group with roots in China- have been in the United States for more than 45 years, but their story largely remains unknown in the wider population.</p>
+<p class="only" class="super">“Lee has elevated a community that has for decades felt involve and forgotten by America.” <strong>Nancy Yang, NBC News</strong>.
+
+Nancy Yang is a digital editor in the Minnesota Public Radio Newsroom. She is also the Minnesota national board representative for the Asian American Journalists Association.
+
+“I can’t find the words to express how happy we are, how important that was to me and my family and to the whole Hmong community throughout the world,” her father, <strong>John Lee, The Associated Press</strong>.</p>
+
+<h4 class="subsub">The History of Hmong people in the United States</h4>
+<p class="subsub">“During the Vietnam War, the Hmong in Laos were recruited to aid U.S. forces fighting Southeast Asian Communists in what has become known as the "Secret War." An estimated 30,000 to 40,000 Hmong soldiers lost their lives in the war. (Around 58,000 American soldiers are believed to have been killed.)
+
+But after the United States withdrew from Laos, Communist forces retaliated against the Hmong for being American allies. Thousands of Hmong people had to flee their war-ravaged homes, making the treacherous journey on foot to neighboring Thailand. Many died of disease, exposure, starvation or drowning while crossing the Mekong River. Scores of Hmong families eventually resettled in other countries, including the United States.</p>
+<p id="spec" class="subsub">Today, California and Minnesota are home to the largest Hmong populations in the country.” NBC News
+
+“I’m a Hmong American who was born and raised in Minnesota. I grew up in Minneapolis. The Twin Cities has the largest urban Hmong population in the nation and yet to this very day I run into people who have no idea why the Hmong are even in the United States. They have no idea the role we played in American history,” Hmong American Journalist <strong>Nancy Yang, NBC News</strong>.
+
+“When I was Suni's age, we weren't allowed to actually participate in high school sports, much less activities that were occurring in middle school or elementary schools. Girls were thought of as children to be loved for sure, but as being in the home and assisting with families,” Dean of the Morrison Family College of Health at the University of St. Thomas, <strong>Dr. MayKao Hang, MPR News</strong>.</p>
+<img src="https://media14.s-nbcnews.com/i/mpx/2704722219/2021_08/sunilee3.jpg" id="fam">
+<h4 class="subsub">Suni as a Role Model</h4>
+<p class="subsub">“Lee’s progress, though, opens the door. And it highlights the importance of letting children pursue their dreams,” <strong>Yang, NBC News</strong>.
+
+During the middle of a snowstorm in St. Paul Minnesota, Hmong fans and supporters still showed up to Suni’s meet-and-greet she hosted while preparing for the 2020 Olympics. 
+
+“I want [my daughter] to know that she has many, many opportunities.” “I want her to know that she has someone who followed her dreams and worked hard to achieve her goals.” Mother of an 11-month old girl who drove out for a photo opportunity with the future Olympic Champion, <strong>Pakou Moua, NBC News</strong>.</p>
+<p class=subsub>In the past, Lee has gushed about her tight-knit community in Minnesota, which boasts a Hmong population of roughly 66,000, many of whom ended up in the area due to refugee resettlement. 
+
+Though the group’s origins in the U.S. began roughly a half-century ago, fleeing war and genocide, experts say its story has been obscured by tropes and images of wealthy Asian Americans who enjoy a much higher degree of privilege compared to that of the community.
+
+About 60 percent of Hmong Americans are low-income and about a quarter live in poverty, according to a 2020 SEARAC report. Compared to all other racial groups, Hmong Americans fare the worst across nearly all measures of income.</p>
+<p class="subsub"><strong>Zoua Vang</strong>, associate professor of sociology at Canada's McGill University, said many of these structural inequalities can be traced back to the United States' treatment of refugees following what has become known as the “secret war” of the 1960s.
+
+Hmong veterans continue to struggle with the lack of equal recognition and benefits for their sacrifices compared to U.S. vets, Vang said, which has become a “long-standing fight and struggle for people of that generation.”
+
+“Suni is so different from all those narratives because, certainly, there are echoes of war and trauma in her family's narrative. Her narrative is not a war narrative; it's a narrative about success,” <strong>Moua</strong> said. “We are talking about her as an individual, as an American, and quite honestly, it's so different from what we've seen. It's a positive narrative, too.”</p>
+<p class="subsub">However, experts stress that though Lee’s story is one of achievement and grit, it’s important that her narrative does not further perpetuate the idea that such extraordinary accomplishments are inevitable by just “pulling yourself up by the bootstraps.” Lee’s success isn’t so much proof of the opportunities or meritocracy in the U.S. but more so a reflection of the resilience of her community, <strong>Moua</strong> said.
+
+While Lee’s family couldn’t afford a balance beam, her father built one himself, installing it in the backyard where it sits to this day, she told <strong>NBC’s “TODAY” show</strong>. Each year, the community held a fundraiser for the gymnast, chipping in so she would be able to compete competitively in the sport.</p>
+<a href="https://youtu.be/NVXxpcmzHvA" class="link">Suni's family at home reacting to her Olympic win</a>
+<a href="https://youtu.be/CSE3WiF10hk" class="link">Suni's dad talks about her Olympic journey</a>
+<p id="spec2" class="subsub">“The community is always right behind her,” <strong>Lee’s father</strong> told <strong>the Star Tribune</strong>. “Without that, Sunisa wouldn't be here. They're so supportive of her."
+
+<strong>Vang</strong> said she hopes when people see Lee’s story, they’ll be prompted to put more resources and investment into communities like the Hmong.
+
+“If we put investments and resources, what amazing diversity can we see on the world stage representing America, and how much more unsupported untapped talent is in communities of color, and the Hmong community” <strong>Vang</strong> said.</p>
+<!-- Form -->
+<div class="sec">
+<h2 id="form" class="section">Comments</h2>
+</div>
+<form>
+    <h5>What more do you want to learn about Suni?</h5>
+    <textarea></textarea>
+    <h5></h5>
+    <input type="submit">
+    <h5>Follow her on social media</h5>
+    <input type="checkbox" name="insta"><a href=https://www.instagram.com/sunisalee/?hl=en""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" class="small"></a>
+    <input type="checkbox" name="tiktok"><a href="https://www.tiktok.com/@sunisalee_?lang=en"><img src="https://sf-tb-sg.ibytedtos.com/obj/eden-sg/uhtyvueh7nulogpoguhm/tiktok-icon2.png" class="small"></a>
+</form>
+<h1 id="blank">.</h1>
+
+
+
+        <!-- Link to Bootstrap Javascript (needed for Photo Carousels, etc) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    </body>
+</html>
